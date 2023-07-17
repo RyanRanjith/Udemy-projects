@@ -8,8 +8,8 @@ position = input("Where do you want to put the treasure? ")
 
 horizontal = int(position[0])
 vertical = int(position[1])
-re = map[horizontal-1]
-re[vertical - 1] = "X"
+re = map[vertical-1]
+re[horizontal - 1] = "X"
 
 
 
